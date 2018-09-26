@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>210</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+ROUTES
+--
+ROUTE1
+ROUTE2
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>200</y>
+      <w>380</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>SlotMachine
+--
++ routes: ROUTES
+- selectedRoute: SimpleStringProperty
+--
++ getSelectedRouteProperty(): SimpleStringProperty
++ getSelectedRoute(): String
++ setSelectedRoute(route: ROUTES)
+- setSelectedRoute(route: String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

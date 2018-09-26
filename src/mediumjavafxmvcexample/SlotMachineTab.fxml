@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane
+    xmlns:fx="http://javafx.com/fxml/1">
+    <stylesheets>
+        <URL value="@slotmachinetab.css"/>
+    </stylesheets>
+    <children>
+        <Label
+            AnchorPane.topAnchor="8.0"
+            AnchorPane.leftAnchor="8.0"
+            text="Selected Route:">
+        </Label>
+
+        <Text
+            fx:id="txtSelectedRoute"
+            AnchorPane.topAnchor="8.0"
+            AnchorPane.leftAnchor="120.0"
+            text="NONE">
+        </Text>
+
+        <Button
+            fx:id="btnRoute1"
+            AnchorPane.topAnchor="40.0"
+            AnchorPane.leftAnchor="8.0"
+            text="Route 1">
+        </Button>
+
+        <Button
+            fx:id="btnRoute2"
+            AnchorPane.topAnchor="40.0"
+            AnchorPane.leftAnchor="100.0"
+            text="Route 2">
+        </Button>
+    </children>
+</AnchorPane>
